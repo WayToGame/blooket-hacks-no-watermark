@@ -19,7 +19,10 @@
             }
 })();
 
-    
+
+function footer() {
+    let element = document.createElement('div');
+
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     element.onmousedown = ((e = window.event) => {
         e.preventDefault();
